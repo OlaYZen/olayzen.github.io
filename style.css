@@ -49,11 +49,10 @@
   }
 }
 .OpenButton {
-  position: absolute;
+  position: fixed;
   top: 23px;
 
   margin: 0;
-  position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
 }
