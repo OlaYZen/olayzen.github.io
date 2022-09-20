@@ -43,14 +43,32 @@ section {
 h1 {
   font-family: 'Kaushan Script', sans-serif;
   font-size: 100px;
-  margin-bottom: 0;
+  font-size:6vw;
+  margin: 0;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+h4 {
+  font-family: 'Kaushan Script', sans-serif;
+  font-size: 100px;
+  font-size:6vw;
+
 }
 
 h2 {
   font-size: 32px;
   font-weight: normal;
   color: var(--on-background-alt);
+  position: relative;
+  font-size:4vw;
+  margin: 40;
+  left: 50%;
+  transform: translate(-50%, -10%);
 }
+
 
 /* Navigation */
 nav {
