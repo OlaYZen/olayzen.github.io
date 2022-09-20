@@ -6,13 +6,54 @@
     h1 {
       background-color: black;
       color: #f0f6fc;
-      font-family: "DejaVu Sans Mono";
+      font-family: Dejav; 
     }
-    
-
+    h2 {
+      background-color: black;
+      color: #f0f6fc;
+    }
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f1f1f1;
+}
+.loader {
+  border: 10px solid #222;
+  width: 80px;
+  height: 80px;
+  /* bringing to middle */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border-top-color: transparent;
+  /* addding spin */
+  animation: spin 0.7s linear infinite;
+}
+/* i am stoping the animation for now */
+@keyframes spin {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
     </style>
 <h1>Hello and welcome to the olayzen.github.io family. My name is OlaYZen but you can call me Olai.</h1>
 <p align="center"><img src="gus.gif" width="500"/></p>
 <body style="background-color:#0d1117;">
+  <div class="loader"></div>
+
+  <script>
+    // also we need to make the O small
+    setTimeout(() => {
+      window.location.href="https://youtu.be/dQw4w9WgXcQ";
+    }, 4000);
+    // 4000 = 4 seconds ( 1000 = 1 second)
+  </script>
+
+
 </body>
 </html>
