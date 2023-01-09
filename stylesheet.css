@@ -41,6 +41,10 @@ section {
     flex-direction: column;
 }
 
+section#about {
+    min-height: 140vh;
+}
+
 /* Desktop Menu */
 
 .nav{
