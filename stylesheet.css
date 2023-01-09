@@ -45,6 +45,10 @@ section#about {
     min-height: 140vh;
 }
 
+section#ad {
+    min-height: 20vh;
+}
+
 /* Desktop Menu */
 
 .nav{
