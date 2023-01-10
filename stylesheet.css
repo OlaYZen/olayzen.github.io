@@ -17,12 +17,14 @@
 html {
     scroll-behavior: smooth;
     cursor: none;
+    text-decoration: none;
 }
 
 body{
     background-color: var(--background-primary);
     margin: 0;
     font-family: "ubuntuFont";
+    text-decoration: none;
 }
 .title{
     color: var(--default-text-color);
@@ -387,8 +389,19 @@ a:-webkit-any-link {
     cursor: none;
 }
 
-
-
+.pastworkworkcontainter{
+    border: #0b328b 5px solid;
+    padding: 10px;
+    color: black;
+    border-radius: 25px;
+    background-color: white;
+}
+.havilalogo{
+    height: auto;
+    width: 80px;
+    padding-left: 10px;
+    
+}
 /* CURSOR */
 
 .cursor {
