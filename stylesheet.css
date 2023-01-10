@@ -297,6 +297,10 @@ center span {
     .pastwork{padding-left: 20px; padding-right: 20px;}
     .hammeny{display: block !important;}
     .reveal{font-size: 20px;}
+    .cursor, .cursor2, .cursorinnerhover{display: none;}
+    html{cursor: auto;}
+
+
 }
 
 
