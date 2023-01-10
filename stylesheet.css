@@ -8,6 +8,7 @@
     --terminal-red: #ff0000;
     --terminal-orange: #ff8800;
     --terminal-yellow: #ffff00;
+    --terminal-cyan: #00ffff;
 }
 
 
@@ -433,7 +434,7 @@ a:-webkit-any-link {
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    border: 1px solid var(--default-text-color);
+    border: 2px solid var(--terminal-cyan);
     transition: all 200ms ease-out;
     position: fixed;
     pointer-events: none;
@@ -446,17 +447,17 @@ a:-webkit-any-link {
     width: 20px;
     height: 20px;
     border-radius: 100%;
-    background-color: var(--default-text-color);
+    background-color: var(--terminal-cyan);
     position: fixed;
     transform: translate(-50%, -50%);
     pointer-events: none;
-    transition: width .3s, height .3s, opacity .3s;
+    transition: width .3s, height .3s, opacity 1s;
 }
 
 .cursorinnerhover {
     width: 50px;
     height: 50px;
-    opacity: .5;
+    opacity: .7;
 }
 
 /* Custom Scroll Bar */
