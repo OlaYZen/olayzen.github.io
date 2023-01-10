@@ -405,3 +405,12 @@ h1,h2,h3,h4,h5,h6{
 
 
 
+.nav .hoverblur {
+    -webkit-transition: all cubic-bezier(.4,0,.2,1) .4s;
+    -o-transition: all cubic-bezier(.4,0,.2,1) .4s;
+    transition: all cubic-bezier(.4,0,.2,1) .4s;
+}
+
+.nav:hover .hoverblur:not(:hover) {
+    opacity: .5;
+}
