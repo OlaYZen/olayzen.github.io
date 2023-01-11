@@ -309,10 +309,11 @@ h1,h2,h3,h4,h5,h6{
     border-right: .15em solid rgb(0, 255, 0); /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    letter-spacing: .17em; /* Adjust as needed */
+    text-indent: 25px;
     animation: 
-    typing 1.7s steps(10, end),
-    blink-caret .5s step-end infinite;
+    typing 1.7s steps(13, end),
+    blink-caret 1s step-end infinite;
 }
 
 
