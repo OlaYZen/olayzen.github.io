@@ -111,6 +111,13 @@ p.containertitles.containertext{
     font-size: 50px;
 }
 
+.gmail{
+    color: white; 
+    text-decoration: none;
+    padding-top: 20px;
+    display: inline-flex;
+}
+
 .containertitles{
     font-size: 70px;
     display: inline-block;
