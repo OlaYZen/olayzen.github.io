@@ -155,8 +155,8 @@ p.containertitles.containertext{
 
 .aboutmecontainer {
     padding: 17px;
-    border: 2px var(--terminal-green) solid;
-    background-color: var(--background-secondary-alt);
+    /* border: 2px var(--terminal-green) solid;
+    background-color: var(--background-secondary-alt); */
     border-radius: 25px;
 }
 
@@ -196,6 +196,14 @@ p.containertitles.containertext{
     font-size: 30px;
     padding-left: 500px;
     padding-right: 500px;
+}
+
+.projectdescription{
+    font-size: 40px;
+    display: inline-block;
+    padding-left: 20px;
+    text-decoration: none;
+    color: var(--default-text-color);
 }
 
 .projectscontainer {
@@ -632,6 +640,7 @@ a:-webkit-any-link {
     .pastwork{padding-left: 20px; padding-right: 20px;}
     section#accordion {padding-left: 300px; padding-right: 300px;}
     .accordionlogoimg{width: auto; height: 70px;}
+    .projectdescription{font-size: 40px;}
 }
 @media only screen and (max-width: 1050px) {
     .title{font-size: 56px;}
@@ -643,6 +652,7 @@ a:-webkit-any-link {
     .pastwork{padding-left: 20px; padding-right: 20px;}
     .reveal{font-size: 40px;}
     section#accordion {padding-left: 50px; padding-right: 50px;}
+    .projectdescription{font-size: 40px;}
 }
 
 @media only screen and (max-width: 850px) {
@@ -661,4 +671,5 @@ a:-webkit-any-link {
     .nav{padding-top: 0px;}
     section#accordion {padding-left: 0px; padding-right: 0px;}
     .accordionlogoimg{width: auto; height: 60px;}
+    .projectdescription{font-size: 30px;}
 }
