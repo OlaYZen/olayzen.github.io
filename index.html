@@ -179,6 +179,44 @@ YYYY             YYYYZZZZZZZZZZZZZZZZZZZZZ
                 </div>
             </div>
         </div>
+    </div>
+
+
+    <!-- TEMPLATE FOR FUTURE USE -->
+<!-- <div class="accordioncontainer">
+    <div>
+                <button class="accordion">
+                    <div class="accordiontitlediv">
+                        <p class="accordiontitle">BRAND NAME</p>
+                        <p class="accordiontitle accordiontime">STARTING YEAR - PRESENT OR ENDING YEAR</p>
+                    </div>
+                </button>
+        <div class="panel" style="display: none;">
+            <div class="accordionallinsidecontent">
+                <div class="accordionmaincontent">
+            <ul class="accordion-list-top-titles">
+                <div class="accordionstraighttitle">
+                    <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
+                    <li class="accordion-titles"><p>CITY, COUNTRY</p></li>
+                </div>
+                <div class="accordionstraighttitle">
+                    <i class="fas fa-globe-europe"></i>
+                    <a href="https://www.havilavoyages.com/" style="text-decoration: none; color: black;">WEBSITE URL</a>
+                </div>
+            </ul>
+                <div class="textcontentaccordion">
+                    <p>WORDS ABOUT THE BRAND</p>
+                    
+                </div>
+                </div>
+                <div class="accordionlogo">
+                    <img class="accordionlogoimg" src="brandlogotemplate.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
 </section>   
 
 <section id="projects">
@@ -224,17 +262,17 @@ YYYY             YYYYZZZZZZZZZZZZZZZZZZZZZ
 <script>
     var acc = document.getElementsByClassName("accordion");
     var i;
-    
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "none") {
-          panel.style.display = "block";
-        } else {
-          panel.style.display = "none";
-        }
-      });
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+        panel.style.display = "none";
+    } else {
+        panel.style.display = "block";
     }
+    });
+}
     </script>
 </html>
