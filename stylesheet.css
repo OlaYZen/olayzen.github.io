@@ -105,6 +105,11 @@ ul {
 
 a.cd-code{
     color: rgb(117, 117, 117) !important;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 p.containertitles.containertext{
