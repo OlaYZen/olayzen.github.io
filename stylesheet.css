@@ -100,7 +100,7 @@ ul {
     color: var(--terminal-green);
     -webkit-transition: color 1000ms linear;
     -ms-transition: color 1000ms linear;
-    transition: color 1000ms linear;
+    transition: color 1500ms linear;
 }
 
 a.cd-code{
