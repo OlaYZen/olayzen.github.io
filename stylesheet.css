@@ -167,6 +167,10 @@ p.containertitles.containertext{
     padding-top: 80px;
 }
 
+.accordionstraighttitle{
+    display: inline-block;
+}
+
 /* Past Work */
 
 .pastwork{
