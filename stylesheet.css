@@ -107,9 +107,12 @@ a.cd-code{
     color: rgb(117, 117, 117) !important;
 }
 
+p.containertitles.containertext{
+    font-size: 50px;
+}
 
 .containertitles{
-    font-size: 50px;
+    font-size: 70px;
     display: inline-block;
     text-decoration: none;
     color: var(--default-text-color);
