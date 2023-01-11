@@ -109,6 +109,8 @@ a.cd-code{
 
 p.containertitles.containertext{
     font-size: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .gmail{
@@ -118,10 +120,13 @@ p.containertitles.containertext{
     display: inline-flex;
 }
 
-.containertitles{
+.containertitles {
     font-size: 70px;
     display: inline-block;
     text-decoration: none;
+    padding-right: 35px;
+    padding-left: 35px;
+    text-align: center;
     color: var(--default-text-color);
 }
 
