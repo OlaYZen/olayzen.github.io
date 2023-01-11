@@ -59,7 +59,7 @@ YYYY             YYYYZZZZZZZZZZZZZZZZZZZZZ
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3876829439790430"
         crossorigin="anonymous"></script>
-
+    <script src="https://kit.fontawesome.com/47dbf3c43e.js" crossorigin="anonymous"></script>
 
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5KFWVCL4Y4"></script>
@@ -148,18 +148,37 @@ YYYY             YYYYZZZZZZZZZZZZZZZZZZZZZ
             </div>
         </div>
     </div>
-    <div class="pastwork">
-        <div class="pastworkoutercontainer">
-            <a style="text-decoration: none;" href="https://www.havilavoyages.com/">
-                <div class="pastworkworkcontainter">
-                    <p>Havila Shipping ASA</p>
-                    <p>2022-2024 <img src="https://images.squarespace-cdn.com/content/v1/5c582726e8ba44b3f7051b9a/1549282263593-6RSUCYM4GF7BES0BROYM/Havila_farge_web.png" alt="" class="havilalogo"></p>
-                    <p>Jobtitle: IT</p>
-                </div>
-            </a>
-        </div>
-    </div>
 </section>
+<section id="accordion"> 
+    <div class="accordioncontainer">
+        <div>
+                <button class="accordion active">
+                    <div class="accordiontitlediv">
+                        <p class="accordiontitle">Havila Shipping ASA</p>
+                        <p class="accordiontitle accordiontime">2022 - Present</p>
+                    </div>
+                </button>
+        <div class="panel" style="display: block;">
+            <div class="accordionallinsidecontent">
+                <div class="accordionmaincontent">
+            <ul class="accordion-list-top-titles">
+                    <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
+                    <li class="accordion-titles"><p>Fosnavåg, Norway</p></li>
+                    <i class="fas fa-globe-europe"></i>
+                    <a href="https://www.havilavoyages.com/" style="text-decoration: none; color: black;">havilavoyages.com</a>
+            </ul>
+                <div class="textcontentaccordion">
+                    <p>Building the most Eco-Friendly ships on the Norwegian coastal route</p>
+                    
+                </div>
+                </div>
+                <div class="accordionlogo">
+                    <img class="accordionlogoimg" src="https://images.squarespace-cdn.com/content/v1/5c582726e8ba44b3f7051b9a/1549282263593-6RSUCYM4GF7BES0BROYM/Havila_farge_web.png" alt="">
+                </div>
+            </div>
+        </div>
+</section>   
+
 <section id="projects">
     <div class="projects">
         <div class="projectsoutercontainer">
@@ -202,4 +221,21 @@ YYYY             YYYYZZZZZZZZZZZZZZZZZZZZZ
 
 <script async src="https://www.olayzen.lol/script.js"></script>
 <script async src="https://www.olayzen.lol/script2.js"></script>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "none") {
+          panel.style.display = "block";
+        } else {
+          panel.style.display = "none";
+        }
+      });
+    }
+    </script>
 </html>
